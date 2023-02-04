@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div style="display: flex; justify-content: center; align-items: center">
+      <canvas id="c1" width="600" height="600"></canvas>
+      <div>
+        <div class="block-range">
+          <p>R</p>
+          <div>
+            <input
+              id="r1"
+              type="range"
+              min="1"
+              max="360"
+              value="180"
+              step="1"
+            />
+            <span>180</span>
+          </div>
+        </div>
+        <div class="block-range">
+          <p>r</p>
+          <div>
+            <input
+              id="r2"
+              type="range"
+              min="1"
+              max="360"
+              value="100"
+              step="1"
+            />
+            <span>100</span>
+          </div>
+        </div>
+        <div class="block-range">
+          <p>d</p>
+          <div>
+            <input id="r3" type="range" min="1" max="360" value="30" step="1" />
+            <span>30</span>
+          </div>
+        </div>
+        <div class="block-range">
+          <p>Время отрисовки</p>
+          <div>
+            <input id="r4" type="range" min="1" max="100" value="25" />
+            <span>25</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
